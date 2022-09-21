@@ -10,8 +10,9 @@
     "build": "next build",
     "start": "next start",
     "lint:next": "next lint",
-    "lint:eslint": "eslint --ext ./src/**/*.{js,ts,tsx}",
-    "fix": "eslint --fix ./src/**/*.{js,ts,tsx} && prettier --write src/"
+    "lint:eslint": "eslint --fix ./src/**/*.{js,ts,tsx}",
+    "format:src": "prettier --write src/",
+    "format:all": "prettier --write \"**/*.+(js|json|yml|ts|tsx)\""
   },
   "dependencies": {
     "next": "12.3.1",

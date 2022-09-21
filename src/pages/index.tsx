@@ -1,7 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
-import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
   return (
@@ -25,7 +24,9 @@ const Home: NextPage = () => {
 
         <p className="my-8 mx-0 text-center text-xl leading-10">
           Get started by editing{" "}
-          <code className="rounded-md bg-gray-800 p-3 font-mono text-xl">pages/index.tsx</code>
+          <code className="rounded-md bg-gray-800 p-3 font-mono text-xl">
+            pages/index.tsx
+          </code>
         </p>
 
         <div className="flex max-w-4xl flex-wrap items-center justify-center">
@@ -34,7 +35,9 @@ const Home: NextPage = () => {
             className="m-4 max-w-xs rounded-lg border border-solid border-white p-7 text-left text-inherit no-underline"
           >
             <h2 className="mx-0 mt-0 mb-4 text-2xl">Documentation &rarr;</h2>
-            <p className="m-0 text-lg">Find in-depth information about Next.js features and API.</p>
+            <p className="m-0 text-lg">
+              Find in-depth information about Next.js features and API.
+            </p>
           </a>
 
           <a
@@ -52,7 +55,9 @@ const Home: NextPage = () => {
             className="m-4 max-w-xs rounded-lg border border-solid border-white p-7 text-left text-inherit no-underline"
           >
             <h2 className="mx-0 mt-0 mb-4 text-2xl">Examples &rarr;</h2>
-            <p className="m-0 text-lg">Discover and deploy boilerplate example Next.js projects.</p>
+            <p className="m-0 text-lg">
+              Discover and deploy boilerplate example Next.js projects.
+            </p>
           </a>
 
           <a
