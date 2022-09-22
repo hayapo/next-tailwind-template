@@ -1,4 +1,4 @@
-.eslintrc.js
+.eslintrc.yml
 next.config.js
 next-env.d.ts
 tailwind.config.js
