@@ -2,7 +2,7 @@
   "name": "next-tailwind-template",
   "author": "hayapo <keep.forward1001@gmail.com>",
   "main": "index.js",
-  "version": "0.1.0",
+  "version": "0.9.0",
   "license": "MIT",
   "private": false,
   "scripts": {
