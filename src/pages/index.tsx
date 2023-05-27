@@ -12,17 +12,17 @@ const Home: NextPage = () => {
       </Head>
 
       <main className="flex min-h-screen flex-1 flex-col items-center justify-center py-8">
-        <h1 className="my-16 mx-0 text-center text-6xl">
+        <h1 className="mx-0 my-16 text-center text-6xl">
           Welcome to{" "}
           <a
             href="https://nextjs.org"
             className=" text-blue-700 no-underline  hover:underline focus:underline active:underline"
           >
-            Next.js!
+            Next.js + Tailwind CSS!
           </a>
         </h1>
 
-        <p className="my-8 mx-0 text-center text-xl leading-10">
+        <p className="mx-0 my-8 text-center text-xl leading-10">
           Get started by editing{" "}
           <code className="rounded-md bg-gray-800 p-3 font-mono text-xl">
             pages/index.tsx
@@ -34,7 +34,7 @@ const Home: NextPage = () => {
             href="https://nextjs.org/docs"
             className="m-4 max-w-xs rounded-lg border border-solid border-white p-7 text-left text-inherit no-underline"
           >
-            <h2 className="mx-0 mt-0 mb-4 text-2xl">Documentation &rarr;</h2>
+            <h2 className="mx-0 mb-4 mt-0 text-2xl">Documentation &rarr;</h2>
             <p className="m-0 text-lg">
               Find in-depth information about Next.js features and API.
             </p>
@@ -44,7 +44,7 @@ const Home: NextPage = () => {
             href="https://nextjs.org/learn"
             className="m-4 max-w-xs rounded-lg border border-solid border-white p-7 text-left text-inherit no-underline"
           >
-            <h2 className="mx-0 mt-0 mb-4 text-2xl">Learn &rarr;</h2>
+            <h2 className="mx-0 mb-4 mt-0 text-2xl">Learn &rarr;</h2>
             <p className="m-0 text-lg">
               Learn about Next.js in an interactive course with quizzes!
             </p>
@@ -54,7 +54,7 @@ const Home: NextPage = () => {
             href="https://github.com/vercel/next.js/tree/canary/examples"
             className="m-4 max-w-xs rounded-lg border border-solid border-white p-7 text-left text-inherit no-underline"
           >
-            <h2 className="mx-0 mt-0 mb-4 text-2xl">Examples &rarr;</h2>
+            <h2 className="mx-0 mb-4 mt-0 text-2xl">Examples &rarr;</h2>
             <p className="m-0 text-lg">
               Discover and deploy boilerplate example Next.js projects.
             </p>
@@ -64,7 +64,7 @@ const Home: NextPage = () => {
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className="m-4 max-w-xs rounded-lg border border-solid border-white p-7 text-left text-inherit no-underline"
           >
-            <h2 className="mx-0 mt-0 mb-4 text-2xl">Deploy &rarr;</h2>
+            <h2 className="mx-0 mb-4 mt-0 text-2xl">Deploy &rarr;</h2>
             <p className="m-0 text-lg">
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
@@ -72,7 +72,7 @@ const Home: NextPage = () => {
         </div>
       </main>
 
-      <footer className="flex flex-1 items-center justify-center border-t border-solid border-white py-8 px-0">
+      <footer className="flex flex-1 items-center justify-center border-t border-solid border-white px-0 py-8">
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"

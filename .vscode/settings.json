@@ -20,6 +20,6 @@
   "editor.lineNumbers": "on",
   "editor.wordWrap": "on",
   "files.insertFinalNewline": true,
-  "npm.packageManager": "yarn",
-  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "npm.packageManager": "pnpm",
+  "typescript.enablePromptUseWorkspaceTsdk": true
 }
